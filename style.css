@@ -1,0 +1,145 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(252, 85, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgba(255, 118, 33, 0.952);
+    color:white;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  .prth{
+    display: block;
+    color: rgb(162, 236, 255);
+    text-align: center;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+  }
+
+  .prt{
+    padding-top: 6px;
+    display:none;
+  }
+  @media only screen and (min-width: 670px) {
+    .prt{
+        display:block
+    }
+
+  }
+  @media only screen and (max-width: 670px) {
+    
+    li {
+        float: left;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+    
+    .imgcss{
+      display:none;
+    }
+  }
+    @media only screen and (max-width: 540px) {
+      .imgcss{
+        display:block;
+      }
+    
+    li a {
+      display: block;
+      color: rgb(255, 106, 43);
+      text-align: center;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: medium;
+    }
+  }
+
+
+  img{
+    padding-top: 3px;
+    align-items: center;
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    padding-right: 5px;
+  }
+
+  ul {
+    position: fixed;
+    top: 0;
+  }
+
+  .mypic img{
+    margin-top: 30px;
+    padding-top: 3px;
+    align-items: center;
+    width:400px;
+    height:450px;
+   
+   
+    
+    
+  }
+.fromside{
+  margin-top: 500px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   { left:-500px; top:0px;}
+  25%   { left:-350px; top:0px;}
+  50%   { left:-100px; top:0px;}
+  75%   { left:-50px; top:0px;}
+  100%   { left:0px; top:0px;}
+  
+  
+}
+
+.pp{
+  z-index: 1;
+}
+
+.htl{
+  border-radius:5px;
+  width:auto;
+  height:260px
+}
+.csl{
+  border-radius:5px;
+  width:210;
+  height:280px
+}
+
+.htt{padding-top: 30px;}
+
+.jsl{
+  border-radius:5px;
+  width:210px;
+  height:260px
+}
